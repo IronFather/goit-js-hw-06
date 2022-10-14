@@ -15,15 +15,19 @@ const images = [
 
 function makeNewGallery(arr) {
   const newGalleryEl = [];
+  
   images.forEach(({ url, alt } = image) => {
     const liEl = document.createElement("li");
     const newImageEl = document.createElement("img");
     newImageEl.src = url;
     newImageEl.alt = alt;
+
     newImageEl.width = 200;
+
     liEl.append(newImageEl);
     newGalleryEl.push(liEl);
   });
+
   return newGalleryEl;
 }
 const galleryOfFaunaEl = document.querySelector(".gallery");
