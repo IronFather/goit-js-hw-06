@@ -33,4 +33,4 @@ function makeNewGallery(arr) {
 const galleryOfFaunaEl = document.querySelector(".gallery");
 galleryOfFaunaEl.append(...makeNewGallery(images));
 
-
+{/* <img src="${images.url}" alt="${images.alt}" />` */}
