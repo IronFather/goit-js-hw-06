@@ -23,7 +23,14 @@ button {
   cursor: pointer;
 }
 
-/* ul {
-  display: flexbox;
+/* task #3 */
+.gallery {
+  display: flex;
+  flex-direction: column-reverse; /*joke :)*/
+}
 
-} */
+.gallery__img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 10px;
+}
